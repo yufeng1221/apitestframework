@@ -2,10 +2,16 @@ __author__ = 'Administrator'
 import logging
 import time
 
+
 class TestLogger:
-    def test_logger(self):
+
+    def __init__(self,name):
+        self.name = name
+
+
+    def test_logger(self,msg,level):
         #创建日志接收
-        logger = logging.getLogger('test')
+        logger = logging.getLogger(self.name)
         logger.setLevel('DEBUG')#设置接收的日志级别
 
         #格式化输出
@@ -17,7 +23,6 @@ class TestLogger:
         output_console.setFormatter(formatter)
 
         #输出日志到文本文件
-
         current_date = time.strftime('%Y-%m-%d')#当前日期
         file_neme = 'API_test_logger_'+current_date+'.txt'#文档名称
         output_text = logging.FileHandler(file_neme,encoding='UTF-8')
@@ -28,9 +33,33 @@ class TestLogger:
         logger.addHandler(output_console)
         logger.addHandler(output_text)
         #处理日志重复打印的问题
+        #每次输出日之后关闭
         logger.removeHandler(output_console)
         logger.removeHandler(output_text)
 
+        #优化日志接收方法
+        if level ==  'DEBUG':
+            logger.debug(msg)
+        elif level == 'INFO':
+            logger.info(msg)
+        elif level == 'WARNING':
+            logger.warning(msg)
+        elif level == 'ERROR':
+            logger.error(msg)
+        elif level == 'CRITICAL':
+            logger.critical(msg)
 
-        #优化日志接收方
-11111
+    def debug(self,msg):
+        self.test_logger(msg,'DEBUG')
+
+    def info(self,msg):
+        self.test_logger(msg,'INFO')
+
+    def warning(self,msg):
+        self.test_logger(msg,'WARNING')
+
+    def error(self,msg):
+        self.test_logger(msg,'ERROR')
+
+    def critical(self,msg):
+        self.test_logger(msg,'CRITICAL')
