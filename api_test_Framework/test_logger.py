@@ -49,22 +49,17 @@ class TestLogger:
         self.logger.removeHandler(output_console)
         self.logger.removeHandler(output_text)
 
-
     def debug(self,msg = None):
         self.test_logger(msg,'DEBUG')
-
 
     def info(self,msg):
         self.test_logger(msg,'INFO')
 
-
     def warning(self,msg):
         self.test_logger(msg,'WARNING')
 
-
     def error(self,msg):
         self.test_logger(msg,'ERROR')
-
 
     def critical(self,msg):
         self.test_logger(msg,'CRITICAL')
