@@ -7,13 +7,12 @@ class TestLogger:
 
     def __init__(self,name):
         self.name = name
+        # 创建日志接收
         self.logger = logging.getLogger(self.name)
 
-
     def test_logger(self,msg,level):
-        #创建日志接收
-
-        self.logger.setLevel('DEBUG')#设置接收的日志级别
+        # 设置接收的日志级别
+        self.logger.setLevel('DEBUG')
 
         #格式化输出
         formatter = logging.Formatter('%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s')
@@ -32,12 +31,7 @@ class TestLogger:
 
         #输出与接收器对接
         self.logger.addHandler(output_console)
-
         self.logger.addHandler(output_text)
-
-        #处理日志重复打印的问题
-        #每次输出日之后关闭
-
 
         #优化日志接收方法
         if level ==  'DEBUG':
@@ -50,7 +44,8 @@ class TestLogger:
             self.logger.error(msg)
         elif level == 'CRITICAL':
             self.logger.critical(msg)
-
+        #处理日志重复打印的问题
+        #每次输出日之后清除Handler
         self.logger.removeHandler(output_console)
         self.logger.removeHandler(output_text)
 
