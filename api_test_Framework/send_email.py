@@ -1,14 +1,14 @@
-
+import time
 import smtplib#构造登陆
 from email.mime.text import MIMEText#构造正文内容
 from email.mime.multipart import MIMEMultipart
 class EMail:
-    def __init__(self,send_resser,send_resser_pasaword,receive_ressee,text_part,enclosure):
+    def __init__(self,send_resser,send_resser_pasaword,receive_ressee,text_part):
         self.send_resser = send_resser
         self.send_resser_pasaword = send_resser_pasaword
         self.receive_ressee = receive_ressee
         self.text_part = text_part
-        self.enclosure = enclosure
+        self.enclosure = time.strftime('%Y-%m-%d')
 
     def send_email(self):
         msg=MIMEMultipart()
@@ -19,8 +19,8 @@ class EMail:
         msg_1=MIMEText(self.text_part)
         msg.attach(msg_1)#将正文添加到邮件
         #附件
-        msg_2=MIMEText(open(self.enclosure,'rb').read(),'html','utf-8')
-        msg_2.add_header('Content-Disposition', 'attachment',filename=self.enclosure)
+        msg_2=MIMEText(open("api_test_"+self.enclosure+".html",'rb').read(),'html','utf-8')
+        msg_2.add_header('Content-Disposition', 'attachment',filename="api_test_"+self.enclosure+".html")
         msg.attach(msg_2)
         #登录信息
         s=smtplib.SMTP_SSL('smtp.qq.com')
@@ -33,6 +33,6 @@ if __name__ == '__main__':
     send_resser_pasaword = 'jnqzqqifobgzbhgj'
     receive_ressee = '252039429@qq.com'
     text_part = 'hello，华佬，这是语枫的测试报告'
-    enclosure ='api_test_0731.html'
-    run_send = EMail(send_resser,send_resser_pasaword,receive_ressee,text_part,enclosure)
+
+    run_send = EMail(send_resser,send_resser_pasaword,receive_ressee,text_part)
     run_send.send_email()

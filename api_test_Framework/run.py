@@ -21,8 +21,7 @@ class run:
         send_resser_pasaword = eval(email_data)[1]
         receive_ressee = eval(email_data)[2]
         text_part = eval(email_data)[3]
-        enclosure = eval(email_data)[4]
-        run_send = EMail(send_resser,send_resser_pasaword,receive_ressee,text_part,enclosure)
+        run_send = EMail(send_resser,send_resser_pasaword,receive_ressee,text_part)
         run_send.send_email()
 
 if __name__ == '__main__':

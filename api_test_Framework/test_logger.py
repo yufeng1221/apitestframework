@@ -7,12 +7,13 @@ class TestLogger:
 
     def __init__(self,name):
         self.name = name
+        self.logger = logging.getLogger(self.name)
 
 
     def test_logger(self,msg,level):
         #创建日志接收
-        logger = logging.getLogger(self.name)
-        logger.setLevel('DEBUG')#设置接收的日志级别
+
+        self.logger.setLevel('DEBUG')#设置接收的日志级别
 
         #格式化输出
         formatter = logging.Formatter('%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s')
@@ -30,36 +31,46 @@ class TestLogger:
         output_text.setFormatter(formatter)
 
         #输出与接收器对接
-        logger.addHandler(output_console)
-        logger.addHandler(output_text)
+        self.logger.addHandler(output_console)
+
+        self.logger.addHandler(output_text)
+
         #处理日志重复打印的问题
         #每次输出日之后关闭
-        logger.removeHandler(output_console)
-        logger.removeHandler(output_text)
+
 
         #优化日志接收方法
         if level ==  'DEBUG':
-            logger.debug(msg)
+            self.logger.debug(msg)
         elif level == 'INFO':
-            logger.info(msg)
+            self.logger.info(msg)
         elif level == 'WARNING':
-            logger.warning(msg)
+            self.logger.warning(msg)
         elif level == 'ERROR':
-            logger.error(msg)
+            self.logger.error(msg)
         elif level == 'CRITICAL':
-            logger.critical(msg)
+            self.logger.critical(msg)
 
-    def debug(self,msg):
+        self.logger.removeHandler(output_console)
+        self.logger.removeHandler(output_text)
+
+
+    def debug(self,msg = None):
         self.test_logger(msg,'DEBUG')
+
 
     def info(self,msg):
         self.test_logger(msg,'INFO')
 
+
     def warning(self,msg):
         self.test_logger(msg,'WARNING')
+
 
     def error(self,msg):
         self.test_logger(msg,'ERROR')
 
+
     def critical(self,msg):
         self.test_logger(msg,'CRITICAL')
+
