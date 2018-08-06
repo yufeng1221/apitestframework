@@ -1,7 +1,8 @@
 __author__ = 'Administrator'
 import logging
 import time
-
+import os
+from conf.path_dispose import log_path
 
 class TestLogger:
 
@@ -25,7 +26,8 @@ class TestLogger:
         #输出日志到文本文件
         current_date = time.strftime('%Y-%m-%d')#当前日期
         file_neme = 'API_test_logger_'+current_date+'.txt'#文档名称
-        output_text = logging.FileHandler(file_neme,encoding='UTF-8')
+        save_path = os.path.join(log_path,file_neme)#log保存路径
+        output_text = logging.FileHandler(save_path,encoding='UTF-8')
         output_text.setLevel('DEBUG')
         output_text.setFormatter(formatter)
 
@@ -44,6 +46,7 @@ class TestLogger:
             self.logger.error(msg)
         elif level == 'CRITICAL':
             self.logger.critical(msg)
+
         #处理日志重复打印的问题
         #每次输出日之后清除Handler
         self.logger.removeHandler(output_console)

@@ -1,0 +1,1060 @@
+2018-08-06 01:33:13,747-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:33:13,748-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000045}post
+2018-08-06 01:33:13,749-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000045}
+2018-08-06 01:33:13,896-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'msg': '注册成功', 'code': '10001', 'data': None}
+2018-08-06 01:33:13,976-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '注册成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'msg': '注册成功', 'code': '10001', 'data': None}
+2018-08-06 01:33:13,977-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:33:14,022-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:33:14,023-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:33:14,024-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000045}post
+2018-08-06 01:33:14,025-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000045}
+2018-08-06 01:33:14,111-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108', 'data': None}
+2018-08-06 01:33:14,156-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108', 'data': None}实际结果：{'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108', 'data': None}
+2018-08-06 01:33:14,157-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:33:14,202-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:33:14,203-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:33:14,204-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000045}get
+2018-08-06 01:33:14,205-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000045}
+2018-08-06 01:33:14,300-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}
+2018-08-06 01:33:14,344-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}
+2018-08-06 01:33:14,345-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:33:14,391-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:33:14,392-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:33:14,392-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000045}get
+2018-08-06 01:33:14,393-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000045}
+2018-08-06 01:33:14,486-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'msg': '用户名或密码错误', 'code': '20111', 'data': None}
+2018-08-06 01:33:14,530-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '用户名或密码错误', 'code': '20111', 'data': None}实际结果：{'status': 0, 'msg': '用户名或密码错误', 'code': '20111', 'data': None}
+2018-08-06 01:33:14,531-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:33:14,576-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:36:16,282-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:36:16,283-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000046}post
+2018-08-06 01:36:16,284-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000046}
+2018-08-06 01:36:16,384-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}
+2018-08-06 01:36:16,428-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}
+2018-08-06 01:36:16,429-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:36:16,471-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:36:16,472-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:36:16,474-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000046}post
+2018-08-06 01:36:16,475-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000046}
+2018-08-06 01:36:16,560-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18', 'data': None}
+2018-08-06 01:36:16,600-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18', 'data': None}实际结果：{'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18', 'data': None}
+2018-08-06 01:36:16,601-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:36:16,644-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:36:16,645-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:36:16,646-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000046}get
+2018-08-06 01:36:16,647-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000046}
+2018-08-06 01:36:16,735-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+2018-08-06 01:36:16,778-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+2018-08-06 01:36:16,779-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:36:16,822-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:36:16,823-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:36:16,824-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000046}get
+2018-08-06 01:36:16,825-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000046}
+2018-08-06 01:36:16,912-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'code': '20111', 'msg': '用户名或密码错误', 'data': None}
+2018-08-06 01:36:16,955-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20111', 'msg': '用户名或密码错误', 'data': None}实际结果：{'status': 0, 'code': '20111', 'msg': '用户名或密码错误', 'data': None}
+2018-08-06 01:36:16,956-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:36:16,998-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:39:03,016-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:39:03,017-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000047, 'pwd': '123456'}post
+2018-08-06 01:39:03,017-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000047, 'pwd': '123456'}
+2018-08-06 01:39:03,118-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '注册成功'}
+2018-08-06 01:39:03,164-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '注册成功'}实际结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '注册成功'}
+2018-08-06 01:39:03,165-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:39:03,209-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:39:03,210-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:39:03,211-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000047, 'pwd': '1234'}post
+2018-08-06 01:39:03,212-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000047, 'pwd': '1234'}
+2018-08-06 01:39:03,297-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18'}
+2018-08-06 01:39:03,343-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18'}实际结果：{'data': None, 'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18'}
+2018-08-06 01:39:03,343-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:39:03,387-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:39:03,388-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:39:03,389-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000047, 'pwd': '123456'}get
+2018-08-06 01:39:03,390-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000047, 'pwd': '123456'}
+2018-08-06 01:39:03,477-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+2018-08-06 01:39:03,519-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}实际结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+2018-08-06 01:39:03,520-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:39:03,564-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:39:03,565-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:39:03,566-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000047, 'pwd': '1234'}get
+2018-08-06 01:39:03,567-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000047, 'pwd': '1234'}
+2018-08-06 01:39:03,655-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': '20111', 'status': 0, 'msg': '用户名或密码错误'}
+2018-08-06 01:39:03,697-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '20111', 'status': 0, 'msg': '用户名或密码错误'}实际结果：{'data': None, 'code': '20111', 'status': 0, 'msg': '用户名或密码错误'}
+2018-08-06 01:39:03,698-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:39:03,740-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:20,067-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:20,068-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000048}post
+2018-08-06 01:41:20,069-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000048}
+2018-08-06 01:41:20,170-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 01:41:20,211-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}实际结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 01:41:20,212-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:20,254-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:20,255-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:20,256-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000048}post
+2018-08-06 01:41:20,257-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000048}
+2018-08-06 01:41:20,344-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 01:41:20,385-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}实际结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 01:41:20,386-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:20,429-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:20,432-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:20,433-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000048}get
+2018-08-06 01:41:20,434-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000048}
+2018-08-06 01:41:20,525-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 01:41:20,568-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}实际结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 01:41:20,569-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:20,616-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:20,617-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:20,618-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000048}get
+2018-08-06 01:41:20,619-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000048}
+2018-08-06 01:41:20,709-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 01:41:20,751-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}实际结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 01:41:20,751-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:20,793-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:53,787-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:53,788-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000049}post
+2018-08-06 01:41:53,789-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000049}
+2018-08-06 01:41:53,886-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}
+2018-08-06 01:41:53,930-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}实际结果：{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}
+2018-08-06 01:41:53,931-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:53,975-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:53,976-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:53,977-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000049}post
+2018-08-06 01:41:53,978-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000049}
+2018-08-06 01:41:54,063-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20108', 'msg': '密码长度必须为6~18', 'data': None, 'status': 0}
+2018-08-06 01:41:54,108-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20108', 'msg': '密码长度必须为6~18', 'data': None, 'status': 0}实际结果：{'code': '20108', 'msg': '密码长度必须为6~18', 'data': None, 'status': 0}
+2018-08-06 01:41:54,109-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:54,153-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:54,154-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:54,155-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000049}get
+2018-08-06 01:41:54,156-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '123456', 'mobilephone': 18800000049}
+2018-08-06 01:41:54,248-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '10001', 'msg': '登录成功', 'data': None, 'status': 1}
+2018-08-06 01:41:54,319-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'msg': '登录成功', 'data': None, 'status': 1}实际结果：{'code': '10001', 'msg': '登录成功', 'data': None, 'status': 1}
+2018-08-06 01:41:54,319-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:54,367-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:41:54,368-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:41:54,369-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000049}get
+2018-08-06 01:41:54,369-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'pwd': '1234', 'mobilephone': 18800000049}
+2018-08-06 01:41:54,463-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '20111', 'msg': '用户名或密码错误', 'data': None, 'status': 0}
+2018-08-06 01:41:54,531-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20111', 'msg': '用户名或密码错误', 'data': None, 'status': 0}实际结果：{'code': '20111', 'msg': '用户名或密码错误', 'data': None, 'status': 0}
+2018-08-06 01:41:54,532-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:41:54,577-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:42:41,034-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:42:41,035-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000050, 'pwd': '123456'}post
+2018-08-06 01:42:41,036-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000050, 'pwd': '123456'}
+2018-08-06 01:42:41,137-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 01:42:41,181-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '注册成功'}实际结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 01:42:41,181-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:42:41,227-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:42:41,227-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:42:41,228-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000050, 'pwd': '1234'}post
+2018-08-06 01:42:41,229-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000050, 'pwd': '1234'}
+2018-08-06 01:42:41,317-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}
+2018-08-06 01:42:41,359-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18'}实际结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}
+2018-08-06 01:42:41,360-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:42:41,404-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:42:41,405-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:42:41,406-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000050, 'pwd': '123456'}get
+2018-08-06 01:42:41,407-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000050, 'pwd': '123456'}
+2018-08-06 01:42:41,497-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 01:42:41,540-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}实际结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 01:42:41,541-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:42:41,586-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 01:42:41,587-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 01:42:41,587-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000050, 'pwd': '1234'}get
+2018-08-06 01:42:41,588-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000050, 'pwd': '1234'}
+2018-08-06 01:42:41,676-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}
+2018-08-06 01:42:41,717-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'code': '20111', 'status': 0, 'msg': '用户名或密码错误'}实际结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}
+2018-08-06 01:42:41,718-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 01:42:41,761-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:11:56,127-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:11:56,128-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000051, 'pwd': '123456'}post
+2018-08-06 02:11:56,129-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000051, 'pwd': '123456'}None
+2018-08-06 02:11:56,239-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '10001', 'status': 1, 'data': None, 'msg': '注册成功'}
+2018-08-06 02:11:56,240-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:11:56,284-INFO-test_logger.py-test-日志信息:预期结果：注册成功实际结果：注册成功
+2018-08-06 02:11:56,285-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'code': '10001', 'status': 1, 'data': None, 'msg': '注册成功'} != <Response [200]>
+2018-08-06 02:11:56,286-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 02:11:56,330-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:11:56,333-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:11:56,334-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000051, 'pwd': '1234'}post
+2018-08-06 02:11:56,335-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000051, 'pwd': '1234'}None
+2018-08-06 02:11:56,425-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20108', 'status': 0, 'data': None, 'msg': '密码长度必须为6~18'}
+2018-08-06 02:11:56,426-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:11:56,478-INFO-test_logger.py-test-日志信息:预期结果：密码长度必须为6~18实际结果：密码长度必须为6~18
+2018-08-06 02:11:56,479-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'code': '20108', 'status': 0, 'data': None, 'msg': '密码长度必须为6~18'} != <Response [200]>
+2018-08-06 02:11:56,480-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 02:11:56,525-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:11:56,526-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:11:56,527-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000051, 'pwd': '123456'}get
+2018-08-06 02:11:56,528-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000051, 'pwd': '123456'}None
+2018-08-06 02:11:56,624-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '10001', 'status': 1, 'data': None, 'msg': '登录成功'}
+2018-08-06 02:11:56,625-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:11:56,682-INFO-test_logger.py-test-日志信息:预期结果：登录成功实际结果：登录成功
+2018-08-06 02:11:56,683-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'code': '10001', 'status': 1, 'data': None, 'msg': '登录成功'} != <Response [200]>
+2018-08-06 02:11:56,683-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 02:11:56,729-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:11:56,731-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:11:56,731-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000051, 'pwd': '1234'}get
+2018-08-06 02:11:56,732-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000051, 'pwd': '1234'}None
+2018-08-06 02:11:56,826-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '20111', 'status': 0, 'data': None, 'msg': '用户名或密码错误'}
+2018-08-06 02:11:56,827-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:11:56,867-INFO-test_logger.py-test-日志信息:预期结果：用户名或密码错误实际结果：用户名或密码错误
+2018-08-06 02:11:56,868-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'code': '20111', 'status': 0, 'data': None, 'msg': '用户名或密码错误'} != <Response [200]>
+2018-08-06 02:11:56,869-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 02:11:56,910-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:15:37,996-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:15:37,998-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000052, 'pwd': '123456'}post
+2018-08-06 02:15:37,999-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000052, 'pwd': '123456'}None
+2018-08-06 02:15:38,104-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': '10001', 'msg': '注册成功', 'status': 1}
+2018-08-06 02:15:38,105-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:15:38,145-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}实际结果：{'data': None, 'code': '10001', 'msg': '注册成功', 'status': 1}
+2018-08-06 02:15:38,146-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:15:38,187-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:15:38,188-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:15:38,189-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000052, 'pwd': '1234'}post
+2018-08-06 02:15:38,190-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'mobilephone': 18800000052, 'pwd': '1234'}None
+2018-08-06 02:15:38,277-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': '20108', 'msg': '密码长度必须为6~18', 'status': 0}
+2018-08-06 02:15:38,278-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:15:38,322-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}实际结果：{'data': None, 'code': '20108', 'msg': '密码长度必须为6~18', 'status': 0}
+2018-08-06 02:15:38,323-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:15:38,368-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:15:38,369-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:15:38,370-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000052, 'pwd': '123456'}get
+2018-08-06 02:15:38,371-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000052, 'pwd': '123456'}None
+2018-08-06 02:15:38,462-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': '10001', 'msg': '登录成功', 'status': 1}
+2018-08-06 02:15:38,463-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:15:38,507-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}实际结果：{'data': None, 'code': '10001', 'msg': '登录成功', 'status': 1}
+2018-08-06 02:15:38,508-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:15:38,555-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:15:38,556-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:15:38,557-INFO-test_logger.py-test-日志信息:http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000052, 'pwd': '1234'}get
+2018-08-06 02:15:38,557-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/login{'mobilephone': 18800000052, 'pwd': '1234'}None
+2018-08-06 02:15:38,659-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': '20111', 'msg': '用户名或密码错误', 'status': 0}
+2018-08-06 02:15:38,660-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:15:38,702-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}实际结果：{'data': None, 'code': '20111', 'msg': '用户名或密码错误', 'status': 0}
+2018-08-06 02:15:38,703-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:15:38,744-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:19:38,803-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:19:38,805-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000053}None
+2018-08-06 02:19:38,904-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}
+2018-08-06 02:19:38,905-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:19:38,953-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}
+2018-08-06 02:19:38,954-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:19:38,998-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:19:38,999-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:19:39,000-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000053}None
+2018-08-06 02:19:39,091-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18', 'data': None}
+2018-08-06 02:19:39,093-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:19:39,153-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18', 'data': None}实际结果：{'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18', 'data': None}
+2018-08-06 02:19:39,154-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:19:39,197-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:19:39,198-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:19:39,199-INFO-test_logger.py-test-日志信息:请求参数-url:http://119.23.241.154:8080/futureloan/mvc/api/member/login账号信息：{'pwd': '123456', 'mobilephone': 18800000053}cookies：None
+2018-08-06 02:19:39,293-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+2018-08-06 02:19:39,295-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:19:39,348-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+2018-08-06 02:19:39,349-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:19:39,395-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:19:39,396-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:19:39,397-INFO-test_logger.py-test-日志信息:请求参数-url:http://119.23.241.154:8080/futureloan/mvc/api/member/login账号信息：{'pwd': '1234', 'mobilephone': 18800000053}cookies：None
+2018-08-06 02:19:39,488-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'code': '20111', 'msg': '用户名或密码错误', 'data': None}
+2018-08-06 02:19:39,488-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:19:39,534-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20111', 'msg': '用户名或密码错误', 'data': None}实际结果：{'status': 0, 'code': '20111', 'msg': '用户名或密码错误', 'data': None}
+2018-08-06 02:19:39,535-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:19:39,578-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:23:07,722-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:23:07,723-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '123456', 'mobilephone': 18800000054}None
+2018-08-06 02:23:07,826-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 02:23:07,826-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:23:07,875-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}实际结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 02:23:07,876-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:23:07,926-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:23:07,927-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:23:07,928-INFO-test_logger.py-test-日志信息:请求参数：http://119.23.241.154:8080/futureloan/mvc/api/member/register{'pwd': '1234', 'mobilephone': 18800000054}None
+2018-08-06 02:23:08,018-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}
+2018-08-06 02:23:08,019-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:23:08,065-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}实际结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}
+2018-08-06 02:23:08,066-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:23:08,111-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:23:08,112-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:23:08,113-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000054} cookies：None
+2018-08-06 02:23:08,203-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 02:23:08,204-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:23:08,250-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}实际结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 02:23:08,251-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:23:08,296-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:23:08,297-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:23:08,298-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000054} cookies：None
+2018-08-06 02:23:08,393-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}
+2018-08-06 02:23:08,395-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:23:08,455-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}实际结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}
+2018-08-06 02:23:08,456-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:23:08,501-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:12,326-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:12,326-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000055, 'pwd': '123456'} cookies：None
+2018-08-06 02:34:12,423-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 02:34:12,424-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:12,473-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '注册成功', 'status': 1, 'code': '10001', 'data': None}实际结果：{'msg': '注册成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 02:34:12,474-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:34:12,525-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:12,526-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:12,527-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000055, 'pwd': '1234'} cookies：None
+2018-08-06 02:34:12,614-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'status': 0, 'code': '20108', 'data': None}
+2018-08-06 02:34:12,615-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:12,665-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '密码长度必须为6~18', 'status': 0, 'code': '20108', 'data': None}实际结果：{'msg': '密码长度必须为6~18', 'status': 0, 'code': '20108', 'data': None}
+2018-08-06 02:34:12,666-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:34:12,715-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:12,716-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:12,717-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000055, 'pwd': '123456'} cookies：None
+2018-08-06 02:34:12,808-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 02:34:12,809-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:12,860-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}实际结果：{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 02:34:12,861-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:34:12,910-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:12,911-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:12,911-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000055, 'pwd': '1234'} cookies：None
+2018-08-06 02:34:13,006-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'status': 0, 'code': '20111', 'data': None}
+2018-08-06 02:34:13,006-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:13,053-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '用户名或密码错误', 'status': 0, 'code': '20111', 'data': None}实际结果：{'msg': '用户名或密码错误', 'status': 0, 'code': '20111', 'data': None}
+2018-08-06 02:34:13,053-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:34:13,101-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:13,102-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:13,102-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000055, 'amount': '200'} cookies：None
+2018-08-06 02:34:13,227-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'status': 0, 'code': None, 'data': None}
+2018-08-06 02:34:13,228-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:13,273-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:13,275-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:13,275-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000055, 'amount': '-100'} cookies：None
+2018-08-06 02:34:13,412-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '抱歉，请先登录。', 'status': 0, 'code': None, 'data': None}
+2018-08-06 02:34:13,414-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:13,486-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:13,487-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:13,488-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000055, 'amount': '100'} cookies：None
+2018-08-06 02:34:13,615-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '抱歉，请先登录。', 'status': 0, 'code': None, 'data': None}
+2018-08-06 02:34:13,616-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:13,667-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:34:13,669-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:34:13,670-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000055, 'amount': '-100'} cookies：None
+2018-08-06 02:34:13,805-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'status': 0, 'code': None, 'data': None}
+2018-08-06 02:34:13,806-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:34:13,855-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:44,299-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:44,300-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:44,402-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '注册成功'}
+2018-08-06 02:36:44,403-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:44,457-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'code': '10001', 'msg': '注册成功'}实际结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '注册成功'}
+2018-08-06 02:36:44,457-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:36:44,508-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:44,510-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:44,510-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:44,600-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18'}
+2018-08-06 02:36:44,601-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:44,651-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18'}实际结果：{'data': None, 'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18'}
+2018-08-06 02:36:44,652-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:36:44,703-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:44,704-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:44,705-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:44,794-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': '20111', 'status': 0, 'msg': '用户名或密码错误'}
+2018-08-06 02:36:44,795-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:44,845-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'code': '20111', 'msg': '用户名或密码错误'}实际结果：{'data': None, 'code': '20111', 'status': 0, 'msg': '用户名或密码错误'}
+2018-08-06 02:36:44,846-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:36:44,892-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:44,893-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:44,894-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:44,984-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+2018-08-06 02:36:44,985-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:45,031-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'code': '10001', 'msg': '登录成功'}实际结果：{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+2018-08-06 02:36:45,032-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:36:45,077-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:45,078-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:45,079-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'amount': '200', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:45,209-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': None, 'status': 0, 'msg': '抱歉，请先登录。'}
+2018-08-06 02:36:45,210-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:45,257-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:45,259-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:45,260-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'amount': '-100', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:45,390-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': None, 'status': 0, 'msg': '抱歉，请先登录。'}
+2018-08-06 02:36:45,391-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:45,442-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:45,443-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:45,444-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'amount': '100', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:45,579-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'code': None, 'status': 0, 'msg': '抱歉，请先登录。'}
+2018-08-06 02:36:45,580-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:45,627-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:36:45,628-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:36:45,629-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'amount': '-100', 'mobilephone': 18800000056} cookies：None
+2018-08-06 02:36:45,758-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'code': None, 'status': 0, 'msg': '抱歉，请先登录。'}
+2018-08-06 02:36:45,759-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:36:45,808-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,284-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,285-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000057} cookies：None
+2018-08-06 02:40:07,287-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:40:07,288-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,290-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,291-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000057} cookies：None
+2018-08-06 02:40:07,292-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:40:07,293-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,294-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,295-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000057} cookies：None
+2018-08-06 02:40:07,387-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'data': None, 'code': '20111', 'status': 0}
+2018-08-06 02:40:07,388-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:40:07,438-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}实际结果：{'msg': '用户名或密码错误', 'data': None, 'code': '20111', 'status': 0}
+2018-08-06 02:40:07,439-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 02:40:07,485-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,486-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,487-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000057} cookies：None
+2018-08-06 02:40:07,582-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'data': None, 'code': '20111', 'status': 0}
+2018-08-06 02:40:07,583-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:40:07,633-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}实际结果：{'msg': '用户名或密码错误', 'data': None, 'code': '20111', 'status': 0}
+2018-08-06 02:40:07,635-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1} != {'msg': '用户名或密码错误', 'data': None, 'code': '20111', 'status': 0}
+- {'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+?            ^^^                          ^^^^             ^
+
++ {'code': '20111', 'data': None, 'msg': '用户名或密码错误', 'status': 0}
+?           ++ ^                          ^^^^^^^^             ^
+
+2018-08-06 02:40:07,636-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 02:40:07,681-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,682-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,683-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000057, 'amount': '200'} cookies：None
+2018-08-06 02:40:07,817-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'data': None, 'code': None, 'status': 0}
+2018-08-06 02:40:07,819-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:40:07,878-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,879-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,880-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000057, 'amount': '-100'} cookies：None
+2018-08-06 02:40:07,881-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:40:07,882-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,883-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,884-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000057, 'amount': '100'} cookies：None
+2018-08-06 02:40:07,885-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:40:07,886-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:40:07,887-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 02:40:07,888-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000057, 'amount': '-100'} cookies：None
+2018-08-06 02:40:08,023-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'data': None, 'code': None, 'status': 0}
+2018-08-06 02:40:08,025-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:40:08,095-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 02:44:09,383-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000057} cookies：None
+2018-08-06 02:44:09,384-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:49:05,334-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:49:05,335-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:49:32,842-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': '13548773642', 'pwd': '123456'} cookies：None
+2018-08-06 02:49:32,843-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:50:32,153-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:50:32,154-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:50:32,155-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:50:32,286-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'status': 0, 'msg': '抱歉，请先登录。', 'code': None}
+2018-08-06 02:50:32,286-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:52:12,816-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:52:12,818-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:52:12,819-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:52:12,951-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': None, 'status': 0, 'msg': '抱歉，请先登录。', 'data': None}
+2018-08-06 02:52:12,952-ERROR-test_logger.py-test-日志信息:请求出错:'NoneType' object has no attribute 'cookies'
+2018-08-06 02:53:09,631-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:53:09,632-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:53:09,633-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:53:09,767-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'code': None, 'data': None, 'status': 0}
+2018-08-06 02:55:00,802-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:55:00,803-ERROR-test_logger.py-test-日志信息:请求出错:'SaveCookies' object is not iterable
+2018-08-06 02:55:00,804-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': '13548773642'} cookies：None
+2018-08-06 02:55:00,937-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': None, 'msg': '抱歉，请先登录。', 'status': 0, 'data': None}
+2018-08-06 03:02:22,774-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:22,872-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:22,873-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:22,964-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:22,965-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:23,055-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:23,057-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:23,148-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:23,149-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:23,279-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:23,281-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:23,415-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:23,416-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:23,548-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:02:23,549-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:02:23,680-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:55,019-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:55,020-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000059} cookies：None
+2018-08-06 03:13:55,129-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '注册成功'}
+2018-08-06 03:13:55,187-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '注册成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '注册成功'}
+2018-08-06 03:13:55,188-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:13:55,242-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:55,243-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:55,244-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:55,335-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'code': '20108', 'msg': '密码长度必须为6~18'}
+2018-08-06 03:13:55,381-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108', 'data': None}实际结果：{'status': 0, 'data': None, 'code': '20108', 'msg': '密码长度必须为6~18'}
+2018-08-06 03:13:55,382-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:13:55,430-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:55,431-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:55,432-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:55,522-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+2018-08-06 03:13:55,571-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '用户名或密码错误', 'code': '20111', 'data': None}实际结果：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+2018-08-06 03:13:55,572-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:13:55,616-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:55,617-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:55,619-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:55,709-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+2018-08-06 03:13:55,758-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+2018-08-06 03:13:55,760-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:13:55,815-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:55,816-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:55,817-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'amount': '200', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:55,947-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'data': None, 'code': None, 'msg': '抱歉，请先登录。'}
+2018-08-06 03:13:55,997-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:55,999-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:56,000-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'amount': '-100', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:56,146-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'code': None, 'msg': '抱歉，请先登录。'}
+2018-08-06 03:13:56,227-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:56,228-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:56,229-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'amount': '100', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:56,364-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'code': None, 'msg': '抱歉，请先登录。'}
+2018-08-06 03:13:56,423-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:13:56,424-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:13:56,425-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'amount': '-100', 'mobilephone': 18800000059} cookies：<RequestsCookieJar[]>
+2018-08-06 03:13:56,557-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'data': None, 'code': None, 'msg': '抱歉，请先登录。'}
+2018-08-06 03:13:56,610-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:16,741-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:16,742-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000060} cookies：None
+2018-08-06 03:16:16,839-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}
+2018-08-06 03:16:16,840-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:16,842-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:16,843-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000060} cookies：None
+2018-08-06 03:16:16,932-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}
+2018-08-06 03:16:16,933-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:16,934-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:16,935-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000060} cookies：None
+2018-08-06 03:16:17,023-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}
+2018-08-06 03:16:17,023-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:17,025-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:17,025-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000060} cookies：None
+2018-08-06 03:16:17,110-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}
+2018-08-06 03:16:17,111-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:17,112-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:17,113-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000060, 'amount': '200'} cookies：None
+2018-08-06 03:16:17,246-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '抱歉，请先登录。', 'code': None, 'status': 0}
+2018-08-06 03:16:17,248-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:17,251-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:17,254-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000060, 'amount': '-100'} cookies：None
+2018-08-06 03:16:17,402-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '抱歉，请先登录。', 'code': None, 'status': 0}
+2018-08-06 03:16:17,404-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:17,407-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:17,409-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000060, 'amount': '100'} cookies：None
+2018-08-06 03:16:17,548-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '抱歉，请先登录。', 'code': None, 'status': 0}
+2018-08-06 03:16:17,550-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:16:17,551-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:16:17,553-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000060, 'amount': '-100'} cookies：None
+2018-08-06 03:16:17,690-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '抱歉，请先登录。', 'code': None, 'status': 0}
+2018-08-06 03:16:17,692-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:15,703-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:15,704-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000061, 'pwd': '123456'} cookies：None
+2018-08-06 03:18:15,800-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'code': '10001', 'data': None, 'status': 1}
+2018-08-06 03:18:15,801-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:15,802-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:15,803-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000061, 'pwd': '1234'} cookies：None
+2018-08-06 03:18:15,888-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'data': None, 'status': 0}
+2018-08-06 03:18:15,889-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:15,890-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:15,891-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000061, 'pwd': '1234'} cookies：None
+2018-08-06 03:18:15,980-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'code': '20111', 'data': None, 'status': 0}
+2018-08-06 03:18:15,981-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:15,982-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:15,983-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000061, 'pwd': '123456'} cookies：None
+2018-08-06 03:18:16,075-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'code': '10001', 'data': None, 'status': 1}
+2018-08-06 03:18:16,076-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:16,078-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:16,078-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000061, 'amount': '200'} cookies：None
+2018-08-06 03:18:16,215-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'code': None, 'data': None, 'status': 0}
+2018-08-06 03:18:16,216-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:16,218-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:16,218-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000061, 'amount': '-100'} cookies：None
+2018-08-06 03:18:16,349-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '抱歉，请先登录。', 'code': None, 'data': None, 'status': 0}
+2018-08-06 03:18:16,350-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:16,351-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:16,352-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000061, 'amount': '100'} cookies：None
+2018-08-06 03:18:16,495-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '抱歉，请先登录。', 'code': None, 'data': None, 'status': 0}
+2018-08-06 03:18:16,497-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:18:16,500-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:18:16,502-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000061, 'amount': '-100'} cookies：None
+2018-08-06 03:18:16,644-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'code': None, 'data': None, 'status': 0}
+2018-08-06 03:18:16,646-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,281-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,282-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000062, 'pwd': '123456'} cookies：None
+2018-08-06 03:19:31,381-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'data': None, 'code': '10001', 'status': 1}
+2018-08-06 03:19:31,382-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,384-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,384-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000062, 'pwd': '1234'} cookies：None
+2018-08-06 03:19:31,475-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'data': None, 'code': '20108', 'status': 0}
+2018-08-06 03:19:31,475-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,477-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,477-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000062, 'pwd': '1234'} cookies：None
+2018-08-06 03:19:31,566-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'data': None, 'code': '20111', 'status': 0}
+2018-08-06 03:19:31,567-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,568-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,569-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000062, 'pwd': '123456'} cookies：None
+2018-08-06 03:19:31,662-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'data': None, 'code': '10001', 'status': 1}
+2018-08-06 03:19:31,663-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,664-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,665-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000062, 'amount': '200'} cookies：None
+2018-08-06 03:19:31,796-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'data': None, 'code': None, 'status': 0}
+2018-08-06 03:19:31,797-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,799-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,800-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000062, 'amount': '-100'} cookies：None
+2018-08-06 03:19:31,943-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '抱歉，请先登录。', 'data': None, 'code': None, 'status': 0}
+2018-08-06 03:19:31,943-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:31,945-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:31,946-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000062, 'amount': '100'} cookies：None
+2018-08-06 03:19:32,078-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '抱歉，请先登录。', 'data': None, 'code': None, 'status': 0}
+2018-08-06 03:19:32,079-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:19:32,080-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:19:32,081-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000062, 'amount': '-100'} cookies：None
+2018-08-06 03:19:32,220-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '抱歉，请先登录。', 'data': None, 'code': None, 'status': 0}
+2018-08-06 03:19:32,223-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:46,839-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:46,840-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000063} cookies：None
+2018-08-06 03:23:46,938-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}
+2018-08-06 03:23:46,988-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}实际结果：{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}
+2018-08-06 03:23:46,990-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:23:47,041-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,042-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,043-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000063} cookies：None
+2018-08-06 03:23:47,135-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20108', 'msg': '密码长度必须为6~18', 'data': None, 'status': 0}
+2018-08-06 03:23:47,184-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20108', 'msg': '密码长度必须为6~18', 'data': None, 'status': 0}实际结果：{'code': '20108', 'msg': '密码长度必须为6~18', 'data': None, 'status': 0}
+2018-08-06 03:23:47,185-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:23:47,235-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,236-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,237-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000063} cookies：None
+2018-08-06 03:23:47,328-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '20111', 'msg': '用户名或密码错误', 'data': None, 'status': 0}
+2018-08-06 03:23:47,379-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20111', 'msg': '用户名或密码错误', 'data': None, 'status': 0}实际结果：{'code': '20111', 'msg': '用户名或密码错误', 'data': None, 'status': 0}
+2018-08-06 03:23:47,381-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:23:47,430-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,431-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,432-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000063} cookies：None
+2018-08-06 03:23:47,526-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '10001', 'msg': '登录成功', 'data': None, 'status': 1}
+2018-08-06 03:23:47,575-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'msg': '登录成功', 'data': None, 'status': 1}实际结果：{'code': '10001', 'msg': '登录成功', 'data': None, 'status': 1}
+2018-08-06 03:23:47,576-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:23:47,627-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,628-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,629-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'amount': '200', 'mobilephone': 18800000063} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B9F136721DFC837D07247654519FF3F1 for 119.23.241.154/futureloan>]>
+2018-08-06 03:23:47,714-ERROR-test_logger.py-test-日志信息:请求出错:Expecting value: line 1 column 1 (char 0)
+2018-08-06 03:23:47,715-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,716-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,717-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'amount': '-100', 'mobilephone': 18800000063} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B9F136721DFC837D07247654519FF3F1 for 119.23.241.154/futureloan>]>
+2018-08-06 03:23:47,802-ERROR-test_logger.py-test-日志信息:请求出错:Expecting value: line 1 column 1 (char 0)
+2018-08-06 03:23:47,803-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,805-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,805-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'amount': '100', 'mobilephone': 18800000063} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B9F136721DFC837D07247654519FF3F1 for 119.23.241.154/futureloan>]>
+2018-08-06 03:23:47,894-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20119', 'msg': '余额不足，请修改提现额度', 'data': None, 'status': 1}
+2018-08-06 03:23:47,942-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:23:47,943-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:23:47,944-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'amount': '-100', 'mobilephone': 18800000063} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B9F136721DFC837D07247654519FF3F1 for 119.23.241.154/futureloan>]>
+2018-08-06 03:23:48,033-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '20117', 'msg': '请输入范围在0到50万之间的正数金额', 'data': None, 'status': 0}
+2018-08-06 03:23:48,079-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:40,222-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:40,223-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000064, 'pwd': '123456'} cookies：None
+2018-08-06 03:24:40,324-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 03:24:40,375-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '注册成功', 'status': 1, 'code': '10001', 'data': None}实际结果：{'msg': '注册成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 03:24:40,376-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:24:40,429-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:40,430-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:40,431-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000064, 'pwd': '1234'} cookies：None
+2018-08-06 03:24:40,519-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'status': 0, 'code': '20108', 'data': None}
+2018-08-06 03:24:40,570-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '密码长度必须为6~18', 'status': 0, 'code': '20108', 'data': None}实际结果：{'msg': '密码长度必须为6~18', 'status': 0, 'code': '20108', 'data': None}
+2018-08-06 03:24:40,571-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:24:40,626-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:40,627-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:40,628-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000064, 'pwd': '1234'} cookies：None
+2018-08-06 03:24:40,716-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'status': 0, 'code': '20111', 'data': None}
+2018-08-06 03:24:40,766-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '用户名或密码错误', 'status': 0, 'code': '20111', 'data': None}实际结果：{'msg': '用户名或密码错误', 'status': 0, 'code': '20111', 'data': None}
+2018-08-06 03:24:40,767-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:24:40,817-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:40,818-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:40,819-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000064, 'pwd': '123456'} cookies：None
+2018-08-06 03:24:40,911-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 03:24:40,961-INFO-test_logger.py-test-日志信息:预期结果：{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}实际结果：{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}
+2018-08-06 03:24:40,962-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 03:24:41,014-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:41,015-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:41,016-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000064, 'amount': '200'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B4C6CEF71054750C92F0B419053AE63F for 119.23.241.154/futureloan>]>
+2018-08-06 03:24:41,102-ERROR-test_logger.py-test-日志信息:请求出错:Expecting value: line 1 column 1 (char 0)
+2018-08-06 03:24:41,103-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:41,105-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:41,106-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge  账号信息：{'mobilephone': 18800000064, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B4C6CEF71054750C92F0B419053AE63F for 119.23.241.154/futureloan>]>
+2018-08-06 03:24:41,191-ERROR-test_logger.py-test-日志信息:请求出错:Expecting value: line 1 column 1 (char 0)
+2018-08-06 03:24:41,193-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:41,194-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:41,195-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000064, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B4C6CEF71054750C92F0B419053AE63F for 119.23.241.154/futureloan>]>
+2018-08-06 03:24:41,283-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '余额不足，请修改提现额度', 'status': 1, 'code': '20119', 'data': None}
+2018-08-06 03:24:41,334-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 03:24:41,335-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 03:24:41,336-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000064, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=B4C6CEF71054750C92F0B419053AE63F for 119.23.241.154/futureloan>]>
+2018-08-06 03:24:41,424-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '请输入范围在0到50万之间的正数金额', 'status': 0, 'code': '20117', 'data': None}
+2018-08-06 03:24:41,475-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:46:13,697-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:46:13,713-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000066} cookies：None
+2018-08-06 15:46:13,816-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'data': None, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 15:46:13,860-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '注册成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'data': None, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 15:46:13,860-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:46:13,903-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:46:13,904-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:46:13,905-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000066} cookies：None
+2018-08-06 15:46:13,991-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 15:46:14,041-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108', 'data': None}实际结果：{'status': 0, 'data': None, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 15:46:14,043-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:46:14,087-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:46:14,088-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:46:14,089-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000066} cookies：None
+2018-08-06 15:46:14,182-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'data': None, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 15:46:14,224-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '用户名或密码错误', 'code': '20111', 'data': None}实际结果：{'status': 0, 'data': None, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 15:46:14,225-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:46:14,269-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:46:14,270-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:46:14,271-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000066} cookies：None
+2018-08-06 15:46:14,367-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 15:46:14,438-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 15:46:14,439-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:46:14,486-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:01,198-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:01,210-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000067, 'pwd': '123456'} cookies：None
+2018-08-06 15:51:01,310-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 15:51:01,358-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}实际结果：{'data': None, 'status': 1, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 15:51:01,359-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:01,409-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:01,411-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:01,413-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000067, 'pwd': '1234'} cookies：None
+2018-08-06 15:51:01,498-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 15:51:01,549-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}实际结果：{'data': None, 'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 15:51:01,550-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:01,600-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:01,602-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:01,603-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000067, 'pwd': '1234'} cookies：None
+2018-08-06 15:51:01,693-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 15:51:01,745-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}实际结果：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 15:51:01,746-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:01,797-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:01,798-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:01,800-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000067, 'pwd': '123456'} cookies：None
+2018-08-06 15:51:01,886-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 15:51:01,942-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}实际结果：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 15:51:01,943-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:01,996-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:01,997-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:01,999-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': 18800000067} cookies：<RequestsCookieJar[<Cookie JSESSIONID=DB8B31499560020F331FC9394149EC91 for 119.23.241.154/futureloan>]>
+2018-08-06 15:51:02,104-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': {'regname': '小蜜蜂', 'leaveamount': '100.00', 'id': 22030, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2018-08-06 15:51:01.0', 'mobilephone': '18800000067', 'type': '1'}, 'status': 1, 'msg': '充值成功', 'code': '10001'}
+2018-08-06 15:51:02,157-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'msg': '充值成功', 'code': '10001'}实际结果：{'data': {'regname': '小蜜蜂', 'leaveamount': '100.00', 'id': 22030, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2018-08-06 15:51:01.0', 'mobilephone': '18800000067', 'type': '1'}, 'status': 1, 'msg': '充值成功', 'code': '10001'}
+2018-08-06 15:51:02,160-ERROR-test_logger.py-test-日志信息:执行用例的时候报错: :: {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1} != {'code': '10001',
+ 'data': {'id': 22030,
+          'leaveamount': '100.00',
+          'mobilephone': '18800000067',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2018-08-06 15:51:01.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+2018-08-06 15:51:02,162-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 15:51:02,216-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:32,602-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:32,603-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000068, 'pwd': '123456'} cookies：None
+2018-08-06 15:51:32,702-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 15:51:32,752-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'code': '10001', 'msg': '注册成功'}实际结果：{'msg': '注册成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 15:51:32,753-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:32,802-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:32,803-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:32,804-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000068, 'pwd': '1234'} cookies：None
+2018-08-06 15:51:32,905-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}
+2018-08-06 15:51:32,957-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'code': '20108', 'msg': '密码长度必须为6~18'}实际结果：{'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0, 'data': None}
+2018-08-06 15:51:32,958-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:33,009-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:33,010-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:33,011-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000068, 'pwd': '1234'} cookies：None
+2018-08-06 15:51:33,101-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}
+2018-08-06 15:51:33,152-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 0, 'code': '20111', 'msg': '用户名或密码错误'}实际结果：{'msg': '用户名或密码错误', 'code': '20111', 'status': 0, 'data': None}
+2018-08-06 15:51:33,153-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:33,203-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:33,204-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:33,205-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000068, 'pwd': '123456'} cookies：None
+2018-08-06 15:51:33,295-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 15:51:33,343-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'code': '10001', 'msg': '登录成功'}实际结果：{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+2018-08-06 15:51:33,344-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:51:33,391-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:51:33,392-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:51:33,393-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000068, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=E6510406EDB61BA9D889E132BD3426CC for 119.23.241.154/futureloan>]>
+2018-08-06 15:51:33,500-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'msg': '充值成功', 'code': '10001', 'status': 1, 'data': {'mobilephone': '18800000068', 'id': 22031, 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-06 15:51:32.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂'}}
+2018-08-06 15:51:33,548-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'status': 1, 'code': '10001', 'msg': '充值成功'}实际结果：{'msg': '充值成功', 'code': '10001', 'status': 1, 'data': {'mobilephone': '18800000068', 'id': 22031, 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-06 15:51:32.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂'}}
+2018-08-06 15:51:33,551-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'data': None, 'status': 1, 'code': '10001', 'msg': '充值成功'} != {'msg': '充值成功', 'code': '10001', 'status': [185 chars]蜜蜂'}}
+- {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1}
++ {'code': '10001',
++  'data': {'id': 22031,
++           'leaveamount': '100.00',
++           'mobilephone': '18800000068',
++           'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
++           'regname': '小蜜蜂',
++           'regtime': '2018-08-06 15:51:32.0',
++           'type': '1'},
++  'msg': '充值成功',
++  'status': 1}
+2018-08-06 15:51:33,552-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 15:51:33,603-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:57:48,407-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:57:48,409-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000069, 'pwd': '123456'} cookies：None
+2018-08-06 15:57:48,503-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'data': None, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 15:57:48,548-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'data': None, 'msg': '注册成功', 'code': '10001'}实际结果：{'status': 1, 'data': None, 'msg': '注册成功', 'code': '10001'}
+2018-08-06 15:57:48,549-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:57:48,592-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:57:48,593-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:57:48,594-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000069, 'pwd': '1234'} cookies：None
+2018-08-06 15:57:48,684-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 15:57:48,748-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'data': None, 'msg': '密码长度必须为6~18', 'code': '20108'}实际结果：{'status': 0, 'data': None, 'msg': '密码长度必须为6~18', 'code': '20108'}
+2018-08-06 15:57:48,749-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:57:48,794-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:57:48,794-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:57:48,796-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000069, 'pwd': '1234'} cookies：None
+2018-08-06 15:57:48,882-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'data': None, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 15:57:48,930-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'data': None, 'msg': '用户名或密码错误', 'code': '20111'}实际结果：{'status': 0, 'data': None, 'msg': '用户名或密码错误', 'code': '20111'}
+2018-08-06 15:57:48,931-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:57:48,981-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:57:48,981-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:57:48,982-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000069, 'pwd': '123456'} cookies：None
+2018-08-06 15:57:49,071-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 15:57:49,159-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}实际结果：{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+2018-08-06 15:57:49,161-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 15:57:49,209-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:57:49,210-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:57:49,211-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000069, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=DA824CDD702DAF91A6F75B05C053593B for 119.23.241.154/futureloan>]>
+2018-08-06 15:57:49,316-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'data': {'mobilephone': '18800000069', 'regtime': '2018-08-06 15:57:48.0', 'type': '1', 'id': 22032, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '100.00'}, 'msg': '充值成功', 'code': '10001'}
+2018-08-06 15:57:49,383-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 15:57:49,385-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 15:57:49,386-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000069, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=DA824CDD702DAF91A6F75B05C053593B for 119.23.241.154/futureloan>]>
+2018-08-06 15:57:49,475-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117'}
+2018-08-06 15:57:49,565-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'data': None, 'msg': '充值失败', 'code': '10001'}实际结果：{'status': 0, 'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117'}
+2018-08-06 15:57:49,567-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'status': 1, 'data': None, 'msg': '充值失败', 'code': '10001'} != {'status': 0, 'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117'}
+- {'code': '10001', 'data': None, 'msg': '充值失败', 'status': 1}
+?           ^^^                           ^^^^             ^
+
++ {'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'status': 0}
+?           ^  ++                         ^^^^^^^^^^^^^^^^^^             ^
+
+2018-08-06 15:57:49,568-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 15:57:49,618-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:00:02,677-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:00:02,679-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000070} cookies：None
+2018-08-06 16:00:02,777-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '注册成功'}
+2018-08-06 16:00:02,828-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '注册成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '注册成功'}
+2018-08-06 16:00:02,829-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:00:02,875-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:00:02,876-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:00:02,877-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000070} cookies：None
+2018-08-06 16:00:02,963-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'code': '20108', 'msg': '密码长度必须为6~18'}
+2018-08-06 16:00:03,009-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '密码长度必须为6~18', 'code': '20108', 'data': None}实际结果：{'status': 0, 'data': None, 'code': '20108', 'msg': '密码长度必须为6~18'}
+2018-08-06 16:00:03,010-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:00:03,053-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:00:03,054-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:00:03,055-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000070} cookies：None
+2018-08-06 16:00:03,146-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+2018-08-06 16:00:03,212-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'msg': '用户名或密码错误', 'code': '20111', 'data': None}实际结果：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+2018-08-06 16:00:03,213-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:00:03,259-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:00:03,261-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:00:03,262-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000070} cookies：None
+2018-08-06 16:00:03,351-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+2018-08-06 16:00:03,405-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}实际结果：{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+2018-08-06 16:00:03,406-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:00:03,460-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:00:03,461-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:00:03,462-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': 18800000070} cookies：<RequestsCookieJar[<Cookie JSESSIONID=DDED6EDFBADB981B5130D193192CDA7B for 119.23.241.154/futureloan>]>
+2018-08-06 16:00:03,559-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'data': {'id': 22033, 'type': '1', 'leaveamount': '100.00', 'regtime': '2018-08-06 16:00:02.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂', 'mobilephone': '18800000070'}, 'code': '10001', 'msg': '充值成功'}
+2018-08-06 16:00:03,609-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:00:03,611-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:00:03,612-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '-100', 'mobilephone': 18800000070} cookies：<RequestsCookieJar[<Cookie JSESSIONID=DDED6EDFBADB981B5130D193192CDA7B for 119.23.241.154/futureloan>]>
+2018-08-06 16:00:03,699-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'data': None, 'code': '20117', 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:00:03,749-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'data': None, 'code': '20117', 'msg': '请输入范围在0到50万之间的正数金额'}实际结果：{'status': 0, 'data': None, 'code': '20117', 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:00:03,750-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:00:03,795-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:02:50,008-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:02:50,009-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '123456', 'mobilephone': 18800000071} cookies：None
+2018-08-06 16:02:50,106-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}
+2018-08-06 16:02:50,153-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}实际结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}
+2018-08-06 16:02:50,154-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:02:50,155-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:02:50,156-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:02:50,157-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'pwd': '1234', 'mobilephone': 18800000071} cookies：None
+2018-08-06 16:02:50,246-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}
+2018-08-06 16:02:50,296-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}实际结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}
+2018-08-06 16:02:50,297-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:02:50,298-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:02:50,300-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:02:50,301-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '1234', 'mobilephone': 18800000071} cookies：None
+2018-08-06 16:02:50,394-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}
+2018-08-06 16:02:50,445-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}实际结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}
+2018-08-06 16:02:50,446-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:02:50,447-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:02:50,448-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:02:50,449-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'pwd': '123456', 'mobilephone': 18800000071} cookies：None
+2018-08-06 16:02:50,540-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}
+2018-08-06 16:02:50,611-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}实际结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}
+2018-08-06 16:02:50,612-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:02:50,613-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:02:50,614-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:02:50,615-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000071, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=E96922284CB4922784EAFF682CF327F9 for 119.23.241.154/futureloan>]>
+2018-08-06 16:02:50,721-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': {'regtime': '2018-08-06 16:02:50.0', 'regname': '小蜜蜂', 'id': 22034, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18800000071', 'leaveamount': '100.00', 'type': '1'}, 'msg': '充值成功', 'code': '10001', 'status': 1}
+2018-08-06 16:02:50,792-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:02:50,793-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:02:50,794-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000071, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=E96922284CB4922784EAFF682CF327F9 for 119.23.241.154/futureloan>]>
+2018-08-06 16:02:50,883-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117', 'status': 0}
+2018-08-06 16:02:50,951-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117', 'status': 0}实际结果：{'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117', 'status': 0}
+2018-08-06 16:02:50,952-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:02:50,953-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:03:44,867-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:03:44,868-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000072, 'pwd': '123456'} cookies：None
+2018-08-06 16:03:44,965-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}
+2018-08-06 16:03:45,016-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}实际结果：{'data': None, 'msg': '注册成功', 'code': '10001', 'status': 1}
+2018-08-06 16:03:45,017-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:03:45,072-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:03:45,073-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:03:45,074-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000072, 'pwd': '1234'} cookies：None
+2018-08-06 16:03:45,161-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}
+2018-08-06 16:03:45,210-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}实际结果：{'data': None, 'msg': '密码长度必须为6~18', 'code': '20108', 'status': 0}
+2018-08-06 16:03:45,212-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:03:45,260-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:03:45,262-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:03:45,263-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000072, 'pwd': '1234'} cookies：None
+2018-08-06 16:03:45,354-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}
+2018-08-06 16:03:45,400-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}实际结果：{'data': None, 'msg': '用户名或密码错误', 'code': '20111', 'status': 0}
+2018-08-06 16:03:45,401-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:03:45,454-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:03:45,455-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:03:45,456-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000072, 'pwd': '123456'} cookies：None
+2018-08-06 16:03:45,546-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}
+2018-08-06 16:03:45,592-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}实际结果：{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}
+2018-08-06 16:03:45,593-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:03:45,640-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:03:45,641-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:03:45,642-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '100', 'mobilephone': 18800000072} cookies：<RequestsCookieJar[<Cookie JSESSIONID=94AF5929F4DE70A93144C51A2F2178AC for 119.23.241.154/futureloan>]>
+2018-08-06 16:03:45,741-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'data': {'regtime': '2018-08-06 16:03:45.0', 'id': 22035, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'mobilephone': '18800000072', 'regname': '小蜜蜂', 'leaveamount': '100.00'}, 'msg': '充值成功', 'code': '10001', 'status': 1}
+2018-08-06 16:03:45,842-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:03:45,843-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:03:45,844-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'amount': '-100', 'mobilephone': 18800000072} cookies：<RequestsCookieJar[<Cookie JSESSIONID=94AF5929F4DE70A93144C51A2F2178AC for 119.23.241.154/futureloan>]>
+2018-08-06 16:03:45,935-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117', 'status': 0}
+2018-08-06 16:03:45,986-INFO-test_logger.py-test-日志信息:预期结果：{'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117', 'status': 0}实际结果：{'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117', 'status': 0}
+2018-08-06 16:03:45,987-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:03:46,036-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:05:26,074-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:05:26,075-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000073, 'pwd': '123456'} cookies：None
+2018-08-06 16:05:26,186-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2018-08-06 16:05:26,238-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}实际结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2018-08-06 16:05:26,239-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:05:26,291-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:05:26,292-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:05:26,293-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000073, 'pwd': '1234'} cookies：None
+2018-08-06 16:05:26,378-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2018-08-06 16:05:26,427-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}实际结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2018-08-06 16:05:26,428-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:05:26,479-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:05:26,480-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:05:26,481-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000073, 'pwd': '1234'} cookies：None
+2018-08-06 16:05:26,568-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-08-06 16:05:26,618-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}实际结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-08-06 16:05:26,619-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:05:26,667-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:05:26,668-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:05:26,669-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000073, 'pwd': '123456'} cookies：None
+2018-08-06 16:05:26,759-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-08-06 16:05:26,804-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}实际结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-08-06 16:05:26,805-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:05:26,850-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:05:26,852-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:05:26,853-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000073, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=4799EBCD84E9B26C6B7C9FE5A520791D for 119.23.241.154/futureloan>]>
+2018-08-06 16:05:26,959-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'mobilephone': '18800000073', 'regtime': '2018-08-06 16:05:26.0', 'regname': '小蜜蜂', 'leaveamount': '100.00', 'id': 22036}, 'msg': '充值成功'}
+2018-08-06 16:05:27,004-INFO-test_logger.py-test-日志信息:预期结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '充值成功'}实际结果：{'status': 1, 'code': '10001', 'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'mobilephone': '18800000073', 'regtime': '2018-08-06 16:05:26.0', 'regname': '小蜜蜂', 'leaveamount': '100.00', 'id': 22036}, 'msg': '充值成功'}
+2018-08-06 16:05:27,007-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'sta[29 chars]ta': None, 'msg': '充值成功'} != {'sta[29 chars]ta': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E[148 chars]值成功'}
+- {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1}
++ {'code': '10001',
++  'data': {'id': 22036,
++           'leaveamount': '100.00',
++           'mobilephone': '18800000073',
++           'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
++           'regname': '小蜜蜂',
++           'regtime': '2018-08-06 16:05:26.0',
++           'type': '1'},
++  'msg': '充值成功',
++  'status': 1}
+2018-08-06 16:05:27,008-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 16:05:27,056-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:05:27,058-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:05:27,058-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000073, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=4799EBCD84E9B26C6B7C9FE5A520791D for 119.23.241.154/futureloan>]>
+2018-08-06 16:05:27,144-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:05:27,188-INFO-test_logger.py-test-日志信息:预期结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}实际结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:05:27,189-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:05:27,236-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:10,844-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:10,845-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000074, 'pwd': '123456'} cookies：None
+2018-08-06 16:08:10,939-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '注册成功'}
+2018-08-06 16:08:10,991-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '注册成功'}实际结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '注册成功'}
+2018-08-06 16:08:10,992-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:08:11,038-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:11,039-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:11,040-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000074, 'pwd': '1234'} cookies：None
+2018-08-06 16:08:11,131-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20108', 'data': None, 'status': 0, 'msg': '密码长度必须为6~18'}
+2018-08-06 16:08:11,181-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20108', 'data': None, 'status': 0, 'msg': '密码长度必须为6~18'}实际结果：{'code': '20108', 'data': None, 'status': 0, 'msg': '密码长度必须为6~18'}
+2018-08-06 16:08:11,182-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:08:11,234-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:11,235-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:11,235-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000074, 'pwd': '1234'} cookies：None
+2018-08-06 16:08:11,324-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '20111', 'data': None, 'status': 0, 'msg': '用户名或密码错误'}
+2018-08-06 16:08:11,379-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20111', 'data': None, 'status': 0, 'msg': '用户名或密码错误'}实际结果：{'code': '20111', 'data': None, 'status': 0, 'msg': '用户名或密码错误'}
+2018-08-06 16:08:11,381-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:08:11,432-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:11,433-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:11,434-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000074, 'pwd': '123456'} cookies：None
+2018-08-06 16:08:11,525-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '登录成功'}
+2018-08-06 16:08:11,596-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '登录成功'}实际结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '登录成功'}
+2018-08-06 16:08:11,597-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:08:11,645-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:11,646-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:11,647-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000074, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=448280EC9A65E314216729FDE4D668FE for 119.23.241.154/futureloan>]>
+2018-08-06 16:08:11,762-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '10001', 'data': {'type': '1', 'mobilephone': '18800000074', 'regname': '小蜜蜂', 'regtime': '2018-08-06 16:08:11.0', 'id': 22037, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '100.00'}, 'status': 1, 'msg': '充值成功'}
+2018-08-06 16:08:11,827-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '充值成功'}实际结果：{'code': '10001', 'data': {'type': '1', 'mobilephone': '18800000074', 'regname': '小蜜蜂', 'regtime': '2018-08-06 16:08:11.0', 'id': 22037, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '100.00'}, 'status': 1, 'msg': '充值成功'}
+2018-08-06 16:08:11,829-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'cod[16 chars]ta': None, 'status': 1, 'msg': '充值成功'} != {'cod[16 chars]ta': {'type': '1', 'mobilephone': '18800000074[161 chars]值成功'}
+- {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1}
++ {'code': '10001',
++  'data': {'id': 22037,
++           'leaveamount': '100.00',
++           'mobilephone': '18800000074',
++           'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
++           'regname': '小蜜蜂',
++           'regtime': '2018-08-06 16:08:11.0',
++           'type': '1'},
++  'msg': '充值成功',
++  'status': 1}
+2018-08-06 16:08:11,830-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 16:08:11,885-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:11,887-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:11,888-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000074, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=448280EC9A65E314216729FDE4D668FE for 119.23.241.154/futureloan>]>
+2018-08-06 16:08:11,975-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20117', 'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:08:12,047-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20117', 'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额'}实际结果：{'code': '20117', 'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:08:12,048-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:08:12,101-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:12,102-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:12,103-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000074, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=448280EC9A65E314216729FDE4D668FE for 119.23.241.154/futureloan>]>
+2018-08-06 16:08:12,202-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'code': '10001', 'data': {'type': '1', 'mobilephone': '18800000074', 'regname': '小蜜蜂', 'regtime': '2018-08-06 16:08:11.0', 'id': 22037, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '0.00'}, 'status': 1, 'msg': '取现成功'}
+2018-08-06 16:08:12,249-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'data': None, 'status': 1, 'msg': '充值成功'}实际结果：{'code': '10001', 'data': {'type': '1', 'mobilephone': '18800000074', 'regname': '小蜜蜂', 'regtime': '2018-08-06 16:08:11.0', 'id': 22037, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '0.00'}, 'status': 1, 'msg': '取现成功'}
+2018-08-06 16:08:12,252-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'cod[16 chars]ta': None, 'status': 1, 'msg': '充值成功'} != {'cod[16 chars]ta': {'type': '1', 'mobilephone': '18800000074[159 chars]现成功'}
+- {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1}
++ {'code': '10001',
++  'data': {'id': 22037,
++           'leaveamount': '0.00',
++           'mobilephone': '18800000074',
++           'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
++           'regname': '小蜜蜂',
++           'regtime': '2018-08-06 16:08:11.0',
++           'type': '1'},
++  'msg': '取现成功',
++  'status': 1}
+2018-08-06 16:08:12,252-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-06 16:08:12,300-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-06 16:08:12,303-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-06 16:08:12,304-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000074, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=448280EC9A65E314216729FDE4D668FE for 119.23.241.154/futureloan>]>
+2018-08-06 16:08:12,391-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'code': '20117', 'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:08:12,464-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20117', 'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额'}实际结果：{'code': '20117', 'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-06 16:08:12,465-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-06 16:08:12,519-DEBUG-test_logger.py-test-日志信息:用例测试结束！

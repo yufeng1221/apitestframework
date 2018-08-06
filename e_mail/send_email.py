@@ -1,6 +1,9 @@
+import time,os
 import smtplib#构造登陆
 from email.mime.text import MIMEText#构造正文内容
 from email.mime.multipart import MIMEMultipart
+from conf.path_dispose import report_path
+
 class EMail:
     def __init__(self,send_resser,send_resser_pasaword,receive_ressee,text_part):
         self.send_resser = send_resser
@@ -17,8 +20,11 @@ class EMail:
         msg_1=MIMEText(self.text_part)
         msg.attach(msg_1)#将正文添加到邮件
         #附件
-        msg_2=MIMEText(open('api_测试报告.html','rb').read(),'html','utf-8')
-        msg_2.add_header('Content-Disposition', 'attachment',filename='api_测试报告.html')
+        report_generate_time = time.strftime('%Y-%m-%d_%H')
+        report_name = 'api_测试报告' + report_generate_time + '.html'
+        report_seva_path = os.path.join(report_path, report_name)
+        msg_2=MIMEText(open(report_seva_path,'rb').read(),'html','utf-8')
+        msg_2.add_header('Content-Disposition', 'attachment',filename=report_name)
         msg.attach(msg_2)
         #登录信息
         s=smtplib.SMTP_SSL('smtp.qq.com')
