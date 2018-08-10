@@ -1,3 +1,0 @@
-from mysql.connector
-
-class

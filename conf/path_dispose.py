@@ -15,7 +15,11 @@ auto_conf_path = auto_conf_path.replace('\\','/')#解决windous下的\问题
 
 #根目录配置文件路径
 root_conf_path = os.path.join(os.path.dirname(__file__),'path.conf')
-root_conf_path =root_conf_path.replace('\\','/')
+root_conf_path = root_conf_path.replace('\\','/')
+
+#数据库链接数据配置文件路径
+db_liknde_path = os.path.join(os.path.dirname(__file__),'database.conf')
+db_liknde_path = db_liknde_path.replace('\\','/')
 
 #日志保存路径
 log_path = os.path.join(root_path,'log_report','log')

@@ -1,0 +1,72 @@
+2018-08-09 01:40:49,031-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:49,032-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000075, 'pwd': '123456'} cookies：None
+2018-08-09 01:40:49,178-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2018-08-09 01:40:49,209-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'status': 1, 'msg': '注册成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+2018-08-09 01:40:49,210-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-09 01:40:49,241-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:49,242-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:49,243-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/register 账号信息：{'mobilephone': 18800000075, 'pwd': '1234'} cookies：None
+2018-08-09 01:40:49,357-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2018-08-09 01:40:49,390-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20108', 'status': 0, 'msg': '密码长度必须为6~18', 'data': None}实际结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2018-08-09 01:40:49,391-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-09 01:40:49,414-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:49,415-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:49,415-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000075, 'pwd': '1234'} cookies：None
+2018-08-09 01:40:49,561-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-08-09 01:40:49,598-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20111', 'status': 0, 'msg': '用户名或密码错误', 'data': None}实际结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-08-09 01:40:49,599-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-09 01:40:49,635-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:49,636-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:49,637-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/login 账号信息：{'mobilephone': 18800000075, 'pwd': '123456'} cookies：None
+2018-08-09 01:40:49,761-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-08-09 01:40:49,797-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'status': 1, 'msg': '登录成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-08-09 01:40:49,798-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-09 01:40:49,829-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:49,830-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:49,831-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000075, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=79DE012FF09E00F52439A824FF793956 for 119.23.241.154/futureloan>]>
+2018-08-09 01:40:49,980-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'data': {'id': 22710, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18800000075', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-09 01:42:05.0'}, 'msg': '充值成功'}
+2018-08-09 01:40:50,007-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'status': 1, 'msg': '充值成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'data': {'id': 22710, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18800000075', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-09 01:42:05.0'}, 'msg': '充值成功'}
+2018-08-09 01:40:50,008-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'code': '10001', 'status': 1, 'msg': '充值成功', 'data': None} != {'status': 1, 'code': '10001', 'data': {'id[185 chars]值成功'}
+- {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1}
++ {'code': '10001',
++  'data': {'id': 22710,
++           'leaveamount': '100.00',
++           'mobilephone': '18800000075',
++           'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
++           'regname': '小蜜蜂',
++           'regtime': '2018-08-09 01:42:05.0',
++           'type': '1'},
++  'msg': '充值成功',
++  'status': 1}
+2018-08-09 01:40:50,009-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-09 01:40:50,047-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:50,048-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:50,049-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge 账号信息：{'mobilephone': 18800000075, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=79DE012FF09E00F52439A824FF793956 for 119.23.241.154/futureloan>]>
+2018-08-09 01:40:50,168-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-09 01:40:50,196-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'status': 0}实际结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-09 01:40:50,197-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-09 01:40:50,226-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:50,227-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:50,228-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000075, 'amount': '100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=79DE012FF09E00F52439A824FF793956 for 119.23.241.154/futureloan>]>
+2018-08-09 01:40:50,374-DEBUG-test_logger.py-test-日志信息:post请求响应结果：{'status': 1, 'code': '10001', 'data': {'id': 22710, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18800000075', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-09 01:42:05.0'}, 'msg': '取现成功'}
+2018-08-09 01:40:50,410-INFO-test_logger.py-test-日志信息:预期结果：{'code': '10001', 'status': 1, 'msg': '充值成功', 'data': None}实际结果：{'status': 1, 'code': '10001', 'data': {'id': 22710, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18800000075', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-09 01:42:05.0'}, 'msg': '取现成功'}
+2018-08-09 01:40:50,411-ERROR-test_logger.py-test-日志信息:执行用例的时候报错:{'code': '10001', 'status': 1, 'msg': '充值成功', 'data': None} != {'status': 1, 'code': '10001', 'data': {'id[183 chars]现成功'}
+- {'code': '10001', 'data': None, 'msg': '充值成功', 'status': 1}
++ {'code': '10001',
++  'data': {'id': 22710,
++           'leaveamount': '0.00',
++           'mobilephone': '18800000075',
++           'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
++           'regname': '小蜜蜂',
++           'regtime': '2018-08-09 01:42:05.0',
++           'type': '1'},
++  'msg': '取现成功',
++  'status': 1}
+2018-08-09 01:40:50,412-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：未通过
+2018-08-09 01:40:50,440-DEBUG-test_logger.py-test-日志信息:用例测试结束！
+2018-08-09 01:40:50,441-DEBUG-test_logger.py-test-日志信息:用例开始执行！
+2018-08-09 01:40:50,442-INFO-test_logger.py-test-日志信息:请求参数 url：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw 账号信息：{'mobilephone': 18800000075, 'amount': '-100'} cookies：<RequestsCookieJar[<Cookie JSESSIONID=79DE012FF09E00F52439A824FF793956 for 119.23.241.154/futureloan>]>
+2018-08-09 01:40:50,576-DEBUG-test_logger.py-test-日志信息:get请求响应结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-09 01:40:50,605-INFO-test_logger.py-test-日志信息:预期结果：{'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额', 'status': 0}实际结果：{'status': 0, 'code': '20117', 'data': None, 'msg': '请输入范围在0到50万之间的正数金额'}
+2018-08-09 01:40:50,606-DEBUG-test_logger.py-test-日志信息:测试用例是否通过：通过
+2018-08-09 01:40:50,635-DEBUG-test_logger.py-test-日志信息:用例测试结束！

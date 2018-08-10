@@ -15,6 +15,7 @@ class run:
         report_generate_time = time.strftime('%Y-%m-%d_%H')
         report_name = 'api_测试报告'+report_generate_time+'.html'
         report_seva_path = os.path.join(report_path,report_name)
+        report_seva_path = report_seva_path.replace('\\', '/')
         with open(report_seva_path,"wb+") as file:#执行用例并生成测试报告
             runner=HTMLTestRunnerNew.HTMLTestRunner(stream=file,title=report_name,description='6666',tester='语枫')
             runner.run(suite)
