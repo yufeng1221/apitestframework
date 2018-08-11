@@ -26,6 +26,7 @@ class DB_Query:
             print(result)
         #涉及到更新数据库数据是操作提交
         cursor.execute('commit')
+        return result
 
 
 
